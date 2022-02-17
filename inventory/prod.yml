@@ -1,6 +1,7 @@
 ---
 elasticsearch:
   hosts:
-    localhost:
+    172.30.0.2:
       ansible_connection: ssh
-      ansible_user: root
+      ansible_user: app-admin
+      ansible_ssh_private_key_file: ssh_env/id_rsa_insecure
