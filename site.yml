@@ -68,6 +68,6 @@
     - name: Set environment Elastic
       become: true
       template:
-        src: templates/elk.sh.j2
-        dest: /etc/profile.d/elk.sh
+        src: templates/elastic.sh.j2
+        dest: /etc/profile.d/elastic.sh
       tags: elastic
